@@ -48,7 +48,7 @@ def test_db_slap(db_conn):
 def test_print(capture_stdout):
     print("hello")
     # assert 1!=1
-    assert capture_stdout["stdout"] == "hello\n"
+    assert capture_stdout["stdout"] == "hello"
 
 # def test_many_slaps():
 #     assert slap_many(LikeState.empty, 'll') is LikeState.empty
