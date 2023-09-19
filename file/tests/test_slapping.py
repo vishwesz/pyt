@@ -49,8 +49,8 @@ def test_db_slap(db_conn):
 
 
 def test_print(capture_stdout):
-    print("hello")
-    # assert 1 != 1
+    print("hello ")
+    assert 1 != 1
     assert capture_stdout["stdout"] == "hello\n"
 
 
