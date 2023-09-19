@@ -1,0 +1,20 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+
+repos:
+-   repo: https://github.com/psf/black
+    rev: '23.1.0'
+    hooks:
+    -   id: black
+
+repos:
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+    -   id: flake8
+    
