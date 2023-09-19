@@ -30,6 +30,7 @@ def slap_dislike(s: LikeState) -> LikeState:
 
 def slap_many(s: LikeState, slaps: str) -> LikeState:
     for c in slaps:
+        print(12)
         c = c.lower()
         if c == 'l':
             s = slap_like(s)
